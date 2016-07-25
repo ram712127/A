@@ -5,7 +5,11 @@ import java.util.Scanner;
 import org.apache.commons.lang3.math.NumberUtils;
 
 /*
- * New Commit*/
+ * New Commit
+ * 
+ * 
+ * 
+ * */
 
 public class Reading {
 	public static void main(String[] args) throws FileNotFoundException {
@@ -18,7 +22,11 @@ public class Reading {
 					System.out.format("%-15.4f", Double.parseDouble(s[i]));
 			System.out.println();
 		}
+
 		System.out.println(NumberUtils.isNumber("1.2423423434"));
+
+		System.out.println("------------------------");
+		System.out.println("------------------------");
 		sc.close();
 	}
 }
